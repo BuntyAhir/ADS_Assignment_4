@@ -1,0 +1,36 @@
+[
+	{
+		"parts": {
+			"part": [
+				{
+					"-pno": "10506",
+					"pname": "Land Before Time I",
+					"qoh": "200",
+					"price": "19.99",
+					"level": "20"
+				},
+				{
+					"-pno": "10507",
+					"pname": "Land Before Time II",
+					"qoh": "50",
+					"price": "16.99",
+					"level": "20"
+				},
+				{
+					"-pno": "10601",
+					"pname": "Sleeping Beauty",
+					"qoh": "300",
+					"price": "24.99",
+					"level": "20"
+				},
+				{
+					"-pno": "10701",
+					"pname": "When Harry Met Sally",
+					"qoh": "120",
+					"price": "19.99",
+					"level": "30"
+				}
+			]
+		}
+	}
+]

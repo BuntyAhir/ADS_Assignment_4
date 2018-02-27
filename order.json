@@ -1,0 +1,25 @@
+[
+	{
+		"orders": {
+			"order": {
+				"-ono": "1022",
+				"-takenBy": "1001",
+				"-customer": "2222",
+				"receivedDate": "1995-02-13",
+				"shippedDate": "1995-02-20",
+				"items": {
+					"item": [
+						{
+							"partNumber": "10601",
+							"quantity": "1"
+						},
+						{
+							"partNumber": "10701",
+							"quantity": "1"
+						}
+					]
+				}
+			}
+		}
+	}
+]

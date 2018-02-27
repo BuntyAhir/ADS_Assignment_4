@@ -1,0 +1,107 @@
+[
+	{
+		"customers": 
+		[
+			{
+				"cname": "charles",
+				"cno": "1111",
+				"street": "123 main street",
+				"city": "Witchita",
+				"zip": "67229",
+				"phone": "316-636-5555"
+			},
+
+			{
+				"cname": "john",
+				"cno": "2222",
+				"street": "123 john street",
+				"city": "Milwaukee",
+				"zip": "53233",
+				"phone": "414-001-1111"
+			}
+		]
+	},
+
+	{
+		"employees": 
+		[
+			{
+				"eno": "1001",
+				"ename": "Jones",
+				"city": "witchita",
+				"zip": "53222",
+				"hdate": "1995-05-05"
+			},
+
+			{
+				"eno": "1002",
+				"ename": "Brown",
+				"city": "Brown city",
+				"zip": "50302",
+				"hdate": "1995-05-05"
+			}
+		]
+	},
+
+	{
+		"parts": 
+		[
+			{
+				"pno": "10506",
+				"pname": "Land Before Time I",
+				"qoh": 50,
+				"price": 16.99,
+				"level": 20
+			},
+
+			{
+				"pno": "10507",
+				"pname": "Land Before Time II",
+				"qoh": 50,
+				"price": 16.99,
+				"level": 20
+			},
+
+			{
+				"pno": "10601",
+				"pname": "Sleeping Beauty",
+				"qoh": 300,
+				"price": 19.99,
+				"level": 30
+			},
+
+			{
+				"pno": "10701",
+				"pname": "Harry Met Sally",
+				"qoh": 120,
+				"price": 19.99,
+				"level": 30
+			}
+		]
+	},
+
+	{
+		"Orders": 
+		[
+			{
+				"ono": "1022",
+				"takenBy": "1001",
+				"customer": "2222",
+				"receivedDate": "1995-02-13",
+				"shippedDate": "1995-02-20",
+				"items": 
+				[
+					{
+						"partNumber": "10601",
+						"quantity": 1
+					},
+
+					{
+						"partNumber": "10701",
+						"quantity": 1
+					}
+				]
+			}
+		]
+	}
+]

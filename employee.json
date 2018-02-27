@@ -1,0 +1,22 @@
+[
+	{
+		"employees": {
+			"employee": [
+				{
+					"-eno": "1001",
+					"ename": "Jones",
+					"city": "Wichita",
+					"zip": "67226-1555",
+					"hdate": "1995-12-12"
+				},
+				{
+					"-eno": "1002",
+					"ename": "Brown",
+					"city": "Brown City",
+					"zip": "50302",
+					"hdate": "1995-05-05"
+				}
+			]
+		}
+	}
+]

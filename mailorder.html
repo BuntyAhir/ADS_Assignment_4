@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<script>
+  
+	var data = JSON.parse(getJSON('./mailorder.json'));
+	alert(data[0].customer[1].cname); 
+
+
+	function getJSON(url) {
+	        var resp ;
+	        var xmlHttp ;
+
+	        resp  = '' ;
+	        xmlHttp = new XMLHttpRequest();
+
+	        if(xmlHttp != null)
+	        {
+	            xmlHttp.open( "GET", url, false );
+	            xmlHttp.send(null);
+	            resp = xmlHttp.responseText;
+	        }
+
+	        return resp ;
+	    }
+	
+	
+</script>
+
+</head>
+
+<body>
+	<form method="post" action="">
+		<div id="test">
+
+			Customer Name:<input id="cname" type="text" name="cname" /><br /> 
+		</div>
+
+		<input type="button" id="buttonId"
+			value="Click to fill input elements" onclick="return doSomething();" />
+	</form>
+</body>
+</html>

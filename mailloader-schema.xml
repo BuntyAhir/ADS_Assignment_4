@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no"?>
+<mo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mailorder.xsd">
+	<customers>
+		<customer cno="1111">
+			<cname>Charles</cname>
+			<street>123 Main St.</street>
+			<city>Wichita</city>
+			<zip>67226</zip>
+			<phone>316-636-5555</phone>
+		</customer>
+		<customer cno="2222">
+			<cname>John</cname>
+			<street>123 John St.</street>
+			<city>Milwaukee</city>
+			<zip>53233</zip>
+			<phone>414-001-1111</phone>
+		</customer>
+	</customers>
+	<employees>
+		<employee eno="1001">
+			<ename>Jones</ename>
+			<city>Wichita</city>
+			<zip>67226-1555</zip>
+			<hdate>1995-12-12</hdate>
+		</employee>
+		<employee eno="1002">
+			<ename>Brown</ename>
+			<city>Brown City</city>
+			<zip>50302</zip>
+			<hdate>1995-05-05</hdate>
+		</employee>
+	</employees>
+	<parts>
+		<part pno="10506">
+			<pname>Land Before Time I</pname>
+			<qoh>200</qoh>
+			<price>19.99</price>
+			<level>20</level>
+		</part>
+		<part pno="10507">
+			<pname>Land Before Time II</pname>
+			<qoh>50</qoh>
+			<price>16.99</price>
+			<level>20</level>
+		</part>
+
+		<part pno="10601">
+			<pname>Sleeping Beauty</pname>
+			<qoh>300</qoh>
+			<price>24.99</price>
+			<level>20</level>
+		</part>
+		<part pno="10701">
+			<pname>When Harry Met Sally</pname>
+			<qoh>120</qoh>
+			<price>19.99</price>
+			<level>30</level>
+		</part>
+	</parts>
+	<orders>
+		<order ono="1022" takenBy="1001" customer="2222">
+			<receivedDate>1995-02-13</receivedDate>
+			<shippedDate>1995-02-20</shippedDate>
+			<items>
+				<item>
+					<partNumber>10601</partNumber>
+					<quantity>1</quantity>
+				</item>
+				<item>
+					<partNumber>10701</partNumber>
+					<quantity>1</quantity>
+				</item>
+			</items>
+		</order>
+	</orders>
+</mo>
